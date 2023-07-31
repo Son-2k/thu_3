@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      h1 {
+        color: blue;
+      }
+      .div {
+        width:100px;
+        margin: 24px;
+        padding: 24px;
+        border: 24px solid red;
+        box-sizing: border-box;
+      }
+      .flex{
+        display: flex;
+        justify-content: space-between;
+      }
+      @media (min-width: 800px){
+        body{
+          background-color: green
+        }
+      }
+      @media (max-width: 300px){
+        body{
+          background-color: red
+        }
+      }
+
+      @media (min-width : 300px){
+        body{
+          background-color:aqua;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Xin chào</h1>
+    <div class="div">content</div>
+    <div class="flex">
+      <div>cột 1</div>
+      <div>cột 2</div>
+      <div>cột 3</div>
+    </div>
+  </body>
+</html>
